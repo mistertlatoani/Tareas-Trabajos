@@ -1,0 +1,1 @@
+Este repositorio es donde inicie o e llevabo lo del blog y otro el que nos pidieron aparte para los otros entregables.... espero no este mal y una discupa por los codigos que veran apenas voy aprendiendo jojojo
