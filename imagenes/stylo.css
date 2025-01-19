@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Signika+Negative:wght@400&display=swap');
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #4C0082;
+    color: #FFFFFF; 
+}
+
+header, footer {
+    background-color: #344CB7; 
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1, footer p {
+    margin: 0;
+    color: #FFEB00; }
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #577BC1; /* Color de componentes */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #FFEB00; /* Color de títulos */
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+button {
+    background-color: #344CB7; /* Botones */
+    color: #FFEB00; /* Resaltados */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #577BC1; /* Color de componentes */
+}
+
+.highlight {
+    background-color: #FFEB00; /* Resaltados */
+    color: #4C0082; /* Fondo del texto */
+    padding: 2px 4px;
+}
