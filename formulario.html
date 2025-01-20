@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+
+<header>
+    <h1>¡Contáctanos!</h1>
+</header>
+<main>
+    <section>
+        <form action="">
+            <fieldset> <!-- Nos permite agrupar por campos -->
+                <legend>Datos básicos</legend>
+                Nombre(s): <input type="text" placeholder="Blanca Adriana" required><br>
+                Apellidos: <input type="text" placeholder="Pérez" required><br>
+                Correo electrónico: <input type="email" placeholder="blanca.perez@gmail.com"><br>
+                Teléfono: <input type="tel" name="" id="" placeholder="557878723566">
+            </fieldset>
+            <fieldset>
+                <legend>Datos del pedido</legend>
+                <span>El número mínimo de tamales para hacer un pedido por esta vía es de 20 piezas y máximo 300 ¡Gracias por su comprensión!</span><br>
+                Número de tamales: <input type="number" min="20" max="300" required><br>
+                Fecha de entrega: <input type="date">
+            </fieldset>
+            <fieldset>
+                <legend>Datos del envío</legend>
+                <!-- El valor del atributo for en label, debe ser igual al valor del atributo id del input correspondiente -->
+                <label for="recoger-en-sucursal">
+                    <input id="recoger-en-sucursal" type="radio" name="tipo-de-envio"> Recoger en sucursal
+                </label>
+                <!-- El atributo name debe ser igual para todas las opciones del input de tipo radio para que solo se pueda seleccionar una opción y no todas -->
+                <label for="envio-a-domicilio">
+                    <input id="envio-a-domicilio" type="radio" name="tipo-de-envio"> Envío a domicilio
+                </label>
+                <label for="delivery">
+                    <input id="delivery" type="radio" name="tipo-de-envio"> Delivery
+                </label>
+                <label for="punto-medio">
+                    <input id="punto-medio" type="radio" name="tipo-de-envio"> Punto medio
+                </label>
+                <br>
+                <select name="sucursales" id="sucursales" required>
+                    <option value="sucursal coyoacan">Sucursal Coyoacán</option>
+                    <option value="sucursal ermita">Sucursal Ermita</option>
+                    <option value="sucursal insurgentes">Sucursal Insurgentes</option>
+                    <option value="sucursal oriente">Sucursal Oriente</option>
+                    <option value="sucursal centro">Sucursal Centro</option>
+                    <option value="sucursal neza">Sucursal Neza</option>
+                    <option value="sucursal ecatepec">Sucursal Ecatepec</option>
+                </select>
+                <br>
+                <input list="sucursal">
+                <datalist id="sucursal">
+                    <option value="Xochimilco">Xochimilco</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </datalist>
+                <br>
+                <!-- Casilla de verificación -->
+                <input type="checkbox" required> Acepto términos y condiciones
+                <br>
+                <input type="submit">
+            </fieldset>
+            <button type="submit">¡Enviar ya!</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>
