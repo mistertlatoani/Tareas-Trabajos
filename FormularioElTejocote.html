@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El TejoFormulario</title>
+</head>
+<body>
+    <header>
+        <h1> TejoContacto </h1>
+    </header>
+
+<main>
+
+<section>
+  <form action="">
+    <fieldset>
+      <legend> Datos Basicos </legend>
+      Nombre(s): <input type="text" placeholder="Tu TejoNombres" required><br>
+    Apellidos: <input type="text" placeholder="Tu TejeApellidos">
+    correo electronico: <input type="email" placeholder="DemasiadosTejocotes@gmail.com"><br>
+    telefono: <input type="tel" name="" id="" placeholder="5564026809">
+ </fieldset>
+ <fieldset>
+  <legend> Cuantos y Por que Tan Poquitos?</legend>
+  <span> La Cantidad minima de pedido es de 5 TejoBolsas, O lo que es lo mismo 5 kilos y el Maximo de 100 kilos, Gracias por su TejoComprension</span><br>
+  Numero de TejoBolsas: <input type="number" min="5" max="100" required><br>
+  Fecha de Entrega: <input type="date">
+ </fieldset>
+<fieldset>
+  <legend> Datos del TejoEnvio </legend>
+  <label for="recoger-en-sucursal">
+    <input id="recoger-en-sucursal" type="radio" name="tipo-de-envio"> Recoger en Tejosucursal
+  </label>
+  <label for="envio-a-domicilio">
+    <input id="envio-a-domicilio" type="radio" name="tipo-de-envio"> Envio a domicilio
+  </label>
+  <label for="delivery">
+    <input id="delivery" type="radio" name="tipo-de-envio"> Delivery
+  </label>
+  <label for="punto-medio">
+    <input id="punto-medio" type="radio" name="tipo-de-envio"> Punto Medio
+  </label>
+  <br>
+  <select name="sucursales" id="sucursales" required>
+    <option value="sucursal coyoacan">Sucursal Coyoacán</option>
+    <option value="sucursal ermita">Sucursal Ermita</option>
+    <option value="sucursal insurgentes">Sucursal Insurgentes</option>
+    <option value="sucursal oriente">Sucursal Oriente</option>
+    <option value="sucursal centro">Sucursal Centro</option>
+    <option value="sucursal neza">Sucursal Neza</option>
+    <option value="sucursal ecatepec">Sucursal Ecatepec</option>
+  </select>
+  <br>
+  <input list="sucursal">
+  <datalist id="sucursal">
+    <option value="Xochimilco">Xochimilco</option>
+    <option value="Tlalpan">Tlalpan</option>
+    <option value="Coyoacan">Coyoacan</option>
+    <option value="Iztapalapa">Iztapalapa</option>
+  </datalist>
+  <br>
+  <label for="direccion">Direccion: </label>
+  <textarea name="direccion" id="direccion" cols="30" rows="10"></textarea>
+  <br>
+  <label for="comentarios">Comentarios: </label>
+  <textarea name="comentarios" id="comentarios" cols="30" rows="10">/
+</fieldset>
+</section>
+
+</main>
+
+</body>
+</html>
