@@ -1,0 +1,35 @@
+[]
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{ /* Declaramos variables en el elemento root */
+    --color_de_fondo:#d0e7f5;
+--color_de_componente: #adbdeb;
+--color_resaltado: #1f13c5;
+--color_botones:#2ab983;
+--color_adicional: rgb(180,234,122);
+--fuente_principal: "sedgwick Ave Display", curs
+}
+h1{
+    font-family: var(--fuente_principal);
+}
+header{
+    background-color: var(--color_de_componente);
+    margin: ;
+}
+/*.hear
+
+
+/* .header-nav{
+display: flex;
+} */
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+nav ul li a{
+    text-decoration: none;
+}
